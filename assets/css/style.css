@@ -1,0 +1,277 @@
+/*
+===--------------------------===
+     Google Fonts
+===---------------------------====
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+body{
+     
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+.bg_separetor{
+     background: #eeeeee;
+}
+.pad_left{
+     padding-left: 0;
+}
+.pad_right{
+     
+}
+/*
+==========================================
+     Main Body Css
+==========================================
+*/
+.main_body{
+     padding: 50px 0;
+}
+/*
+===--------------------------===
+     Left Content Css
+===---------------------------====
+*/
+.main_body .left-content{
+     font-family: 'Ubuntu', sans-serif;
+     background: #1b1b1b;
+     color: #eee;
+     padding: 50px 0;
+     height: 100%;
+}
+/*----------------------------
+     Photo Name Css
+----------------------------*/
+.main_body .left-content .photo_name{
+     padding-bottom: 50px;
+     font-family: 'Raleway', sans-serif;
+}
+.main_body .left-content .photo_name img{
+    width: 50%;
+    border: 4px solid #ddd;
+}
+.main_body .left-content .photo_name h2{
+     text-transform: capitalize;
+     font-size: 30px;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     font-weight: 600;
+}
+.main_body .left-content .photo_name h4{
+     text-transform: capitalize;
+     font-size: 20px;
+}
+/*----------------------------
+     Address Css
+----------------------------*/
+.main_body .left-content .address{
+     padding: 50px 0;
+     margin: 0 30px;
+     text-align: left;
+}
+.main_body .left-content .address p{
+     font-size: 14px;
+    text-transform: unset;
+}
+.main_body .left-content .address p span{
+     text-transform: capitalize;
+     font-size: 15px;
+    font-weight: 600;
+}
+/*----------------------------
+     Links Css
+----------------------------*/
+.main_body .left-content .links{
+     padding: 60px 0;
+     margin: 0 30px;
+     text-align: left;
+}
+.main_body .left-content .links h3{
+     text-transform: capitalize;
+     font-family: 'Raleway', sans-serif;
+     font-size: 20px;
+     margin-bottom: 10px;
+     border-bottom: 2px solid #eee;
+}
+.main_body .left-content .links a{
+     margin-right: 15px;
+     display: inline-block;
+     font-size: 12px;
+     color: #1b1b1b;
+     width: 28px;
+     height: 28px;
+     background: #eee;
+     border: 1px solid #eee;
+     padding: 4px 8px;
+     border-radius: 50%;
+}
+.main_body .left-content .links a:hover{
+     color: #eee;
+     background: #1b1b1b;
+     border: 1px solid #eee;
+     transition: .8s;
+}
+/*
+===--------------------------===
+     Right Content Css
+===--------------------------====
+*/
+.main_body .right-content{
+     font-family: 'Raleway', sans-serif;
+     padding: 50px 0;
+     height: 100%;
+}
+/*----------------------------
+     Object Css
+----------------------------*/
+.main_body .right-content .object{
+     padding-bottom: 30px;
+     color: #1b1b1b;
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.main_body .right-content .object h3{
+     font-size: 17px;
+     font-weight: 400;
+     margin-bottom: 8px;
+}
+.main_body .right-content .object p{
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 14px;
+     text-align: justify;
+     margin-bottom: 4px;
+     font-weight: 300;
+ }
+}
+/*----------------------------
+     Educatiom Css
+----------------------------*/
+.main_body .right-content .education{
+     color: #1b1b1b;
+}
+.main_body .right-content .education h3{
+     text-transform: capitalize;
+     font-size: 20px;
+     border-bottom: 2px solid #1b1b1b;
+     margin-bottom: 7px;
+}
+.main_body .right-content .education ul{
+     font-family: 'Ubuntu', sans-serif;
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.main_body .right-content .education ul li{
+     font-size: 13px;
+}
+.main_body .right-content .education ul li p{
+     font-size: 14px;
+     text-align: justify;
+     margin-bottom: 5px;
+     font-weight: 300;
+}
+.main_body .right-content .education ul li p strong{
+     font-weight: 400;
+}
+/*----------------------------
+     Experience Css
+----------------------------*/
+.main_body .right-content .experience{
+     color: #1b1b1b;
+     padding: 30px 0;
+}
+.main_body .right-content .experience h3{
+     text-transform: capitalize;
+     font-size: 20px;
+     border-bottom: 2px solid #1b1b1b;
+     margin-bottom: 7px;
+}
+.main_body .right-content .experience ul{
+     font-family: 'Ubuntu', sans-serif;
+     margin-left: 20px;
+     margin-right: 20px;
+}
+.main_body .right-content .experience ul li{
+     font-size: 13px;
+}
+.main_body .right-content .experience ul li p{
+     font-size: 14px;
+     text-align: justify;
+     margin-bottom: 5px;
+     font-weight: 300;
+}
+/*----------------------------
+     Portfolio Css
+----------------------------*/
+.main_body .right-content .portfolio{
+     color: #1b1b1b;
+     padding-bottom: 30px;
+}
+.main_body .right-content .portfolio h3{
+     text-transform: capitalize;
+     font-size: 20px;
+     margin-bottom: 7px;
+     border-bottom: 2px solid #1b1b1b;
+}
+.main_body .right-content .portfolio a{
+     display: inline-block;
+     text-decoration: none;
+     color: #1b1b1b;
+     font-weight: 500;
+     font-style: italic;
+     font-size: 14px;
+     margin-left: 20px;
+     margin-right: 20px;
+     font-family: 'Ubuntu', sans-serif;
+}
+/*---------------------------
+     Skills Css
+----------------------------*/
+.main_body .right-content .skills{
+     color: #1b1b1b;
+}
+.main_body .right-content .skills h3{
+     text-transform: capitalize;
+     font-size: 20px;
+     border-bottom: 2px solid #1b1b1b;
+     margin-bottom: 7px;
+}
+.main_body .right-content .skills ul{
+     margin-left: 20px;
+     margin-right: 20px;
+}
+
+.main_body .right-content .skills ul li{
+    font-size: 13px;
+}
+.main_body .right-content .skills ul li p{
+     font-size: 14px;
+     text-align: justify;
+     font-weight: 500;
+     font-family: 'Ubuntu', sans-serif;
+}
+
+.main_body .right-content .skills ul li p span{
+     font-size: 14px;
+     text-align: justify;
+     font-weight: 300;
+     font-family: 'Raleway', sans-serif;
+}
